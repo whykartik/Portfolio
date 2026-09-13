@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=1000",
+    "title": "AI-Powered RAG Q&A Chatbot",
+    "description": "A high-performance retrieval-augmented generation pipeline with document ingestion, chunking, and binary-quantized vector embedding search (est. 25-35ms retrieval latency). JS-native architecture with Groq's Kimi K2 model for low-latency, streamed responses. Currently in development.",
+    "tags": ["LangChain.js", "Express.js", "React", "Milvus", "Groq"],
+    "repoLink": "https://github.com/whykartik",
+    "demoLink": null
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1000",
+    "title": "Gamified Productivity Dashboard",
+    "description": "A full-stack productivity app with task management, daily planning, and gamification (points, leaderboards, rankings). RESTful API endpoints across task and user modules, with MongoDB schemas designed for future feature expansion.",
+    "tags": ["React.js", "Node.js", "Express.js", "MongoDB"],
+    "repoLink": "https://github.com/whykartik",
+    "demoLink": null
+  }
+]

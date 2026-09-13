@@ -1,0 +1,74 @@
+/**
+ * @file: profile.config.ts
+ * @author: Kartik Sharma
+ * @summary: Full-stack developer with a strong foundation in Java, DSA, and RAG systems using LangChain.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  languages: ["Java", "JavaScript", "TypeScript"],
+  frontend: ["React.js", "HTML5", "CSS3", "SCSS"],
+  backend: ["Node.js", "Express.js", "REST APIs", "JWT Authentication"],
+  database: ["MongoDB (Schema Design, Indexing)", "Milvus (Vector Search)"],
+  ai_genai: ["LangChain", "LangGraph", "RAG", "Groq"],
+  fundamentals: ["Data Structures & Algorithms", "OOP", "DBMS", "Operating Systems"],
+  tools: ["Git", "GitHub", "Postman"]
+};
+
+// --------------------------------------------------
+// 2. PROJECTS
+// --------------------------------------------------
+
+class Projects {
+
+  /** IN DEVELOPMENT */
+  public async AIRagQnAChatbot(): Promise<Impact> {
+    const stack = "LangChain.js + Express.js + React + Milvus + Groq";
+
+    // Building a RAG pipeline with document ingestion, chunking,
+    // and binary-quantized vector embedding search
+    const retrievalLatency = "~25-35ms (estimated)";
+
+    // Binary vector indexing + Hamming-distance search
+    // Groq's Kimi K2 model for low-latency streamed generation via SSE
+    return { stack, retrievalLatency };
+  }
+
+  public GamifiedProductivityDashboard(): void {
+    this.stack = "React.js + Node.js + Express.js + MongoDB";
+    this.focus = "Task management, daily planning, gamification";
+
+    // Designed RESTful API endpoints across task and user modules
+    // Structured MongoDB schemas anticipating future features (badges, streaks, social)
+  }
+}
+
+// --------------------------------------------------
+// 3. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+  ["Lakshmi Narain College of Technology & Science", "B.Tech CSE, CGPA 8.48/10 (Expected May 2027)"],
+  ["Shivpuri Public School", "Class 12 - 90.6% | Class 10 - 96.6%"]
+]);
+
+const courses = [
+  "Data Structures and Algorithms Using Java - Infosys Springboard",
+  "Software Engineering and Agile Software Development - Infosys Springboard"
+];
+
+export default new Projects();
+
+
+```bash
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ user --status
+> Status: Open to Opportunities
+> Focus: Backend & System Design for Software Engineer roles
+> Loading Assets... [||||||||||] 100%
+> Ready.
+```
